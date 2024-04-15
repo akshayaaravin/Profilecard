@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  min-height: 100vh;
+}
+
+h5 {
+  font-size: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
+  text-align: left;
+}
+
+.container {
+  background-color: rgba(42, 67, 206, 0.959);
+  border-radius: 5px;
+  box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+.i {
+  border: 2px solid white;
+  border-radius: 50%; /* Make the image round */
+  width: 150px; /* Adjust image size */
+  height: 150px; /* Adjust image size */
+  margin: 0 auto 20px; /* Center the image and add spacing */
+}
+
+h2, h3 {
+  color: white;
+}
+
+.des {
+  color: white;
+}
+
+.buttons {
+  margin-bottom: 20px; /* Add space between buttons and skills */
+}
+
+.buttons button {
+  margin-right: 10px; /* Add space between buttons */
+  background-color: white;
+  border: 1px solid;
+  border-radius: 3px;
+  color: #333; /* Change button text color */
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 500;
+  padding: 10px 25px;
+}
+
+.buttons button.pri {
+  background-color: rgba(255, 255, 255, 0.5); /* Make the primary button slightly transparent */
+}
+
+.skills {
+  margin-top: 20px; /* Add space between buttons and skills */
+}
+
+.skill-box {
+  background-color: white;
+  color: #333; /* Change skill text color */
+  padding: 10px;
+  margin-bottom: 10px; /* Add space between skill boxes */
+  border-radius: 3px;
+}
+
+.skills ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li{
+  color: white;
+  list-style-type: none;
+  border-radius: 1px solid white;
+  display: inline-block;
+  padding: 7px;
+  margin: 0px 7px 7px 0px;
+  font-size: 12px;
+
+}
